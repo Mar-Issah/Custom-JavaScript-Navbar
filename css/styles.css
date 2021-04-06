@@ -53,10 +53,9 @@ li {
 /* -------links----------- */
 .links {
 	height: 13rem;
-	/* transition: height 2s ease-in-out; */
+	
 }
 
-/* when you click on the toggle button in js it add and remove this class so when it added css takes effects */
 
 .show-links {
 	display: none;
@@ -76,14 +75,14 @@ li {
 .links li:hover {
 	background: cornflowerblue;
 	padding-left: 2rem;
-	/* when you hover aound it the padding shift and the transition allows it smoothly */
+	
 }
 
 .social-icons {
 	display: none;
 }
 
-/* big/ default screen up is small screen*/
+
 @media (min-width: 800px) {
 	.nav-center {
 		width: 100%;
@@ -98,7 +97,7 @@ li {
 	.nav-toggle {
 		display: none;
 
-		/* at big screen dont display the toggle bar */
+		
 	}
 
 	.links {
@@ -110,7 +109,7 @@ li {
 
 	.links li:hover {
 		background: white;
-		/* transition: all 0.3s linear; */
+		
 	}
 
 	.links a:hover {
